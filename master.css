@@ -400,7 +400,7 @@ main .home {
       var(--card) 70%,
       var(--secondary) 100%
     ),
-    url("img/img1.jpeg");
+    url("img/img1.webp");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -413,7 +413,7 @@ main .home {
       var(--card) 70%,
       var(--secondary) 100%
     ),
-    url("img/img2.jpeg");
+    url("img/img2.webp");
   background-size: cover;
 }
 
@@ -424,7 +424,7 @@ main .home {
       var(--card) 70%,
       var(--secondary) 100%
     ),
-    url("img/img3.png");
+    url("img/img3.webp");
   background-position-y: center;
   background-size: cover;
 }
