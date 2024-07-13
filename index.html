@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="
+    Hey I'm a Full Stack Developer, I specialize in creating
+    high-quality web solutions, Portfolios, Single-page websites ,
+    Web applications using Node.js, E-shops and Custom websites
+  "
+    />
+    <link rel="shortcut icon" type="img/x-icon" href="img/website_icon.png" />
+    <link rel="stylesheet" href="master.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css"
+      integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"
+      integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main-ul flex">
+          <li class="active nav-li">
+            <span>Home</span
+            ><svg
+              class="nav-svg active-svg"
+              version="1.0"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 64 64"
+              enable-background="new 0 0 64 64"
+              xml:space="preserve"
+            >
+              <path
+                d="M62.79,29.172l-28-28C34.009,0.391,32.985,0,31.962,0s-2.047,0.391-2.828,1.172l-28,28
+           c-1.562,1.566-1.484,4.016,0.078,5.578c1.566,1.57,3.855,1.801,5.422,0.234L8,33.617V60c0,2.211,1.789,4,4,4h16V48h8v16h16
+           c2.211,0,4-1.789,4-4V33.695l1.195,1.195c1.562,1.562,3.949,1.422,5.516-0.141C64.274,33.188,64.356,30.734,62.79,29.172z"
+              />
+            </svg>
+          </li>
+          <li class="nav-li">
+            <span>About Me</span
+            ><svg
+              class="nav-svg"
+              viewBox="0 -32 576 576"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-352 96c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H86.4C74 384 64 375.4 64 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2zM512 312c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16z"
+              />
+            </svg>
+          </li>
+          <li class="nav-li">
+            <span>Services</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="nav-svg"
+              viewBox="0 0 32 32"
+              version="1.1"
+            >
+              <title>hand-holding-globe</title>
+              <path
+                d="M29.287 19.252c-0.486-0.206-1.052-0.326-1.646-0.326-0.65 0-1.267 0.144-1.82 0.402l0.027-0.011-5.121 2.301c-0.32-1.36-1.523-2.356-2.959-2.356-0.058 0-0.115 0.002-0.172 0.005l0.008-0h-3.711l-4.691-1.375c-0.104-0.032-0.225-0.051-0.349-0.051-0.001 0-0.002 0-0.003 0h-1.669v-0.257c0-0.69-0.56-1.25-1.25-1.25v0h-3.883c-0.69 0-1.25 0.56-1.25 1.25v0 12.208c0 0.69 0.56 1.25 1.25 1.25h3.883c0.69-0 1.25-0.56 1.25-1.25v-0.44c1.596 0.316 2.993 0.738 4.33 1.278l-0.159-0.057c1.209 0.432 2.603 0.682 4.056 0.682 1.676 0 3.274-0.332 4.732-0.934l-0.082 0.030c1.271-0.563 2.351-1.16 3.372-1.839l-0.083 0.052c0.334-0.207 0.668-0.412 1.004-0.611 1.648-0.977 2.973-1.832 4.17-2.699 0.595-0.424 1.115-0.843 1.608-1.29l-0.014 0.013c0.428-0.353 0.769-0.795 0.997-1.3l0.009-0.023c0.052-0.133 0.082-0.287 0.082-0.448 0-0.093-0.010-0.184-0.029-0.271l0.002 0.008c-0.176-1.17-0.885-2.144-1.868-2.68l-0.019-0.010zM4.681 28.541h-1.383v-9.709h1.383zM28.379 22.174c-0.398 0.356-0.831 0.702-1.283 1.024l-0.046 0.031c-1.131 0.818-2.395 1.635-3.975 2.57-0.352 0.209-0.697 0.424-1.045 0.639-0.833 0.557-1.791 1.091-2.793 1.547l-0.129 0.052c-1.096 0.451-2.369 0.712-3.703 0.712-1.137 0-2.229-0.19-3.247-0.54l0.070 0.021c-1.451-0.607-3.148-1.097-4.911-1.392l-0.137-0.019v-6.48h1.489l4.691 1.375c0.105 0.032 0.226 0.051 0.351 0.051h3.891c0.443 0 0.697 0.17 0.697 0.469s-0.254 0.469-0.697 0.469h-6.809c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h7.781c0 0 0 0 0.001 0 0.185 0 0.361-0.040 0.519-0.113l-0.008 0.003 7.803-3.504c0.228-0.105 0.494-0.167 0.774-0.167 0.183 0 0.359 0.026 0.526 0.075l-0.013-0.003c0.185 0.113 0.326 0.282 0.4 0.484l0.002 0.007c-0.066 0.064-0.137 0.129-0.201 0.189zM16.99 18.265l0.010 0.003 0.010-0.003c4.821-0.006 8.728-3.915 8.728-8.737 0-4.825-3.912-8.737-8.737-8.737s-8.737 3.912-8.737 8.737c0 4.822 3.906 8.732 8.727 8.737h0.001zM17.001 3.729c0.51 0.579 0.933 1.251 1.238 1.985l0.018 0.048-2.505-0.012c0.323-0.776 0.744-1.444 1.257-2.029l-0.007 0.008zM18.883 8.264c0.047 0.378 0.075 0.818 0.076 1.263v0.002c0 0.077-0.009 0.145-0.010 0.221h-3.897c-0.001-0.076-0.010-0.143-0.010-0.221 0.002-0.454 0.030-0.9 0.084-1.337l-0.005 0.054zM23.236 9.529c0 0.076-0.020 0.146-0.022 0.221h-1.772c0.001-0.078 0.017-0.141 0.017-0.221 0-0.45-0.056-0.842-0.094-1.253l1.746 0.009c0.080 0.374 0.126 0.804 0.126 1.245v0zM15.395 12.25h3.21c-0.312 1.19-0.867 2.223-1.612 3.088l0.008-0.010c-0.738-0.854-1.294-1.888-1.594-3.025l-0.012-0.053zM12.558 9.75h-1.773c-0.003-0.075-0.022-0.145-0.022-0.221 0.001-0.463 0.053-0.912 0.15-1.345l-0.008 0.041 1.734 0.008c-0.051 0.377-0.086 0.825-0.097 1.279l-0 0.016c0 0.079 0.015 0.143 0.017 0.221zM11.414 12.25h1.435c0.196 0.961 0.484 1.811 0.863 2.61l-0.029-0.069c-0.974-0.626-1.748-1.487-2.252-2.504l-0.016-0.036zM20.318 14.791c0.35-0.73 0.637-1.58 0.821-2.468l0.013-0.073h1.434c-0.52 1.054-1.294 1.915-2.243 2.526l-0.025 0.015zM21.95 5.779l-1.041-0.005c-0.184-0.591-0.384-1.090-0.619-1.568l0.028 0.063c0.639 0.412 1.18 0.913 1.622 1.495l0.011 0.015zM13.682 4.269c-0.203 0.404-0.4 0.89-0.562 1.392l-0.021 0.076-1.011-0.005c0.445-0.576 0.972-1.061 1.569-1.448l0.024-0.015z"
+              />
+            </svg>
+          </li>
+          <li class="nav-li">
+            <span>My work</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+              viewBox="0 -1 32 32"
+              version="1.1"
+            >
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+                sketch:type="MSPage"
+              >
+                <g
+                  class="nav-svg"
+                  id="Icon-Set-Filled"
+                  sketch:type="MSLayerGroup"
+                  transform="translate(-206.000000, -206.000000)"
+                >
+                  <path
+                    d="M224,222 C224,221.634 223.895,221.296 223.723,221 L220.277,221 C220.105,221.296 220,221.634 220,222 C220,223.104 220.896,224 222,224 C223.104,224 224,223.104 224,222 L224,222 Z M226,222 C226,224.209 224.209,226 222,226 C219.791,226 218,224.209 218,222 C218,221.652 218.054,221.319 218.141,221 L206,221 L206,232 C206,234.209 207.791,236 210,236 L234,236 C236.209,236 238,234.209 238,232 L238,221 L225.859,221 C225.946,221.319 226,221.652 226,222 L226,222 Z M226,210 L218,210 L218,209 C218,208.448 218.448,208 219,208 L225,208 C225.552,208 226,208.448 226,209 L226,210 L226,210 Z M234,210 L228,210 L228,208 C228,206.896 227.104,206 226,206 L218,206 C216.896,206 216,206.896 216,208 L216,210 L210,210 C207.791,210 206,211.791 206,214 L206,219 L238,219 L238,214 C238,211.791 236.209,210 234,210 L234,210 Z"
+                    id="briefcase"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="swiper-container flex">
+      <div class="swiper-wrapper">
+        <section class="swiper-slide flex home">
+          <div class="main-info flex">
+            <div class="info">
+              <h1 class="name">I'm Sherif Alaa</h1>
+              <h1 class="text-light">
+                A <span class="auto-type"></span
+                ><span class="typed-cursor" aria-hidden="true"></span>
+              </h1>
+              <p class="text-me">
+                Hey I'm a Full Stack Developer, I specialize in creating
+                high-quality web solutions, Portfolios, Single-page websites ,
+                Web applications using Node.js, E-shops and Custom websites
+              </p>
+              <button class="btn flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M13.5 3H12H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H12M13.5 3L19 8.625M13.5 3V7.625C13.5 8.17728 13.9477 8.625 14.5 8.625H19M19 8.625V11.8125"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 15V21M17.5 21L15 18.5M17.5 21L20 18.5"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>My CV</span>
+              </button>
+            </div>
+            <div class="my-accounts">
+              <h1>MY ACCOUNTS</h1>
+              <div class="social flex">
+                <a
+                  class="social-acc flex"
+                  href="https://www.facebook.com/sheref.alex.75?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <g id="7935ec95c421cee6d86eb22ecd11b7e3">
+                      <path
+                        style="display: inline"
+                        d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379   c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302   c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263   l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p>Sheref Alex</p>
+                </a>
+                <a
+                  class="social-acc flex"
+                  href="https://www.linkedin.com/in/sherif-alaa-38bb44237?trk=contact-info"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1"
+                    id="Capa_1"
+                    viewBox="0 0 552.77 552.77"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M17.95,528.854h71.861c9.914,0,17.95-8.037,17.95-17.951V196.8c0-9.915-8.036-17.95-17.95-17.95H17.95    C8.035,178.85,0,186.885,0,196.8v314.103C0,520.816,8.035,528.854,17.95,528.854z"
+                        />
+                        <path
+                          d="M17.95,123.629h71.861c9.914,0,17.95-8.036,17.95-17.95V41.866c0-9.914-8.036-17.95-17.95-17.95H17.95    C8.035,23.916,0,31.952,0,41.866v63.813C0,115.593,8.035,123.629,17.95,123.629z"
+                        />
+                        <path
+                          d="M525.732,215.282c-10.098-13.292-24.988-24.223-44.676-32.791c-19.688-8.562-41.42-12.846-65.197-12.846    c-48.268,0-89.168,18.421-122.699,55.27c-6.672,7.332-11.523,5.729-11.523-4.186V196.8c0-9.915-8.037-17.95-17.951-17.95h-64.192    c-9.915,0-17.95,8.035-17.95,17.95v314.103c0,9.914,8.036,17.951,17.95,17.951h71.861c9.915,0,17.95-8.037,17.95-17.951V401.666    c0-45.508,2.748-76.701,8.244-93.574c5.494-16.873,15.66-30.422,30.488-40.649c14.83-10.227,31.574-15.343,50.24-15.343    c14.572,0,27.037,3.58,37.393,10.741c10.355,7.16,17.834,17.19,22.436,30.104c4.604,12.912,6.904,41.354,6.904,85.33v132.627    c0,9.914,8.035,17.951,17.949,17.951h71.861c9.914,0,17.949-8.037,17.949-17.951V333.02c0-31.445-1.982-55.607-5.941-72.48    S535.836,228.581,525.732,215.282z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Sherif Alaa</p>
+                </a>
+                <a
+                  class="social-acc flex"
+                  href="https://github.com/Sh6rif"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1920 1920"
+                  >
+                    <path
+                      d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <p>Sh6rif</p>
+                </a>
+                <a
+                  class="social-acc flex"
+                  href="mailto: sherefalex34@gmail.com"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 32 32"
+                    version="1.1"
+                  >
+                    <path
+                      d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z"
+                    />
+                  </svg>
+                  <p>sherefalex34@gmail.com</p>
+                </a>
+                <a
+                  class="social-acc flex"
+                  href="https://wa.me/+201012983148"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 20 20"
+                    version="1.1"
+                  >
+                    <g
+                      id="Page-1"
+                      stroke="none"
+                      stroke-width="1"
+                      fill-rule="evenodd"
+                    >
+                      <g
+                        id="Dribbble-Light-Preview"
+                        transform="translate(-300.000000, -7599.000000)"
+                      >
+                        <g
+                          id="icons"
+                          transform="translate(56.000000, 160.000000)"
+                        >
+                          <path
+                            d="M259.821,7453.12124 C259.58,7453.80344 258.622,7454.36761 257.858,7454.53266 C257.335,7454.64369 256.653,7454.73172 254.355,7453.77943 C251.774,7452.71011 248.19,7448.90097 248.19,7446.36621 C248.19,7445.07582 248.934,7443.57337 250.235,7443.57337 C250.861,7443.57337 250.999,7443.58538 251.205,7444.07952 C251.446,7444.6617 252.034,7446.09613 252.104,7446.24317 C252.393,7446.84635 251.81,7447.19946 251.387,7447.72462 C251.252,7447.88266 251.099,7448.05372 251.27,7448.3478 C251.44,7448.63589 252.028,7449.59418 252.892,7450.36341 C254.008,7451.35771 254.913,7451.6748 255.237,7451.80984 C255.478,7451.90987 255.766,7451.88687 255.942,7451.69881 C256.165,7451.45774 256.442,7451.05762 256.724,7450.6635 C256.923,7450.38141 257.176,7450.3464 257.441,7450.44643 C257.62,7450.50845 259.895,7451.56477 259.991,7451.73382 C260.062,7451.85686 260.062,7452.43903 259.821,7453.12124 M254.002,7439 L253.997,7439 L253.997,7439 C248.484,7439 244,7443.48535 244,7449 C244,7451.18666 244.705,7453.21526 245.904,7454.86076 L244.658,7458.57687 L248.501,7457.3485 C250.082,7458.39482 251.969,7459 254.002,7459 C259.515,7459 264,7454.51465 264,7449 C264,7443.48535 259.515,7439 254.002,7439"
+                            id="whatsapp-[#128]"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>+20 1012983148</p>
+                </a>
+                <a
+                  class="social-acc flex"
+                  href="https://t.me/+201012983148"
+                  target="_blank"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M23.1117 4.49449C23.4296 2.94472 21.9074 1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645 14.7157L8.03849 21.2746C8.13583 21.6153 8.40618 21.8791 8.74917 21.968C9.09216 22.0568 9.45658 21.9576 9.70712 21.707L12.5938 18.8203L16.6375 21.8531C17.8113 22.7334 19.5019 22.0922 19.7967 20.6549L23.1117 4.49449ZM3.0633 11.0816L21.1525 4.0926L17.8375 20.2531L13.1 16.6999C12.7019 16.4013 12.1448 16.4409 11.7929 16.7928L10.5565 18.0292L10.928 15.9861L18.2071 8.70703C18.5614 8.35278 18.5988 7.79106 18.2947 7.39293C17.9906 6.99479 17.4389 6.88312 17.0039 7.13168L6.95124 12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908 14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z"
+                    />
+                  </svg>
+                  <p>+20 1012983148</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="div-img">
+            <img class="myImg" src="img/myImg.png" alt="my-img" />
+          </div>
+        </section>
+        <section class="swiper-slide about">
+          <div class="div1 flex">
+            <div class="person">
+              <h1 class="head-person">PERSONAL INFOS</h1>
+              <div class="personal-info">
+                <p>First Name: <span>Sherif</span></p>
+                <p>Last Name: <span>Alaa</span></p>
+                <p>Age: <span>23 Years old</span></p>
+                <p>Nationality: <span>Egypt</span></p>
+                <p>Freelance: <span>Avilable</span></p>
+                <p>Adress: <span>Alexandria</span></p>
+                <p>Phone: <span>+20 102983148</span></p>
+                <p>Email: <span>sherefalex34@gmail.com</span></p>
+                <p>Hobbies: <span>Chess</span></p>
+                <p>Languages <span>Arabic, English</span></p>
+              </div>
+            </div>
+            <div class="boxs">
+              <div class="box-item">
+                <h1><span id="projects">20</span>+</h1>
+                <p>completed projects</p>
+              </div>
+              <div class="box-item">
+                <h1><span id="hours">240</span>+</h1>
+                <p>hours of work</p>
+              </div>
+              <div class="box-item">
+                <h1><span id="months">12</span>+</h1>
+                <p>month of experience</p>
+              </div>
+              <div class="box-item">
+                <h1><span id="technologies">15</span>+</h1>
+                <p>web technologies</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <h1>MY SKILLS</h1>
+            <div class="container">
+              <div class="scroller">
+                <p class="item">HTML</p>
+                <p class="item">CSS</p>
+                <p class="item">JAVASCRIPT</p>
+                <p class="item">BOOTSTRAP</p>
+                <p class="item">NODE.JS</p>
+                <p class="item">EXPRESS.JS</p>
+                <p class="item">MONGODB</p>
+                <p class="item">FIREBASE</p>
+                <p class="item">C#</p>
+                <p class="item">C++</p>
+                <p class="item">Python</p>
+                <p class="item">PHP</p>
+                <p class="item">JAVA</p>
+              </div>
+              <div class="scroller">
+                <p class="item">HTML</p>
+                <p class="item">CSS</p>
+                <p class="item">JAVASCRIPT</p>
+                <p class="item">BOOTSTRAP</p>
+                <p class="item">NODE.JS</p>
+                <p class="item">EXPRESS.JS</p>
+                <p class="item">MONGODB</p>
+                <p class="item">FIREBASE</p>
+                <p class="item">C#</p>
+                <p class="item">C++</p>
+                <p class="item">Python</p>
+                <p class="item">PHP</p>
+                <p class="item">JAVA</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="swiper-slide flex services">
+          <div class="card">
+            <div class="card-image"></div>
+            <div class="card-text">
+              <h2>Web development</h2>
+              <p>
+                I can build websites using frontend and backend programming
+                languages.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image card2"></div>
+            <div class="card-text card2">
+              <h2>Responsive Design</h2>
+              <p>
+                I can build Websites that open in mobiles and all kinds of
+                screens.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image card3"></div>
+            <div class="card-text card3">
+              <h2>Update Websites</h2>
+              <p>I can fix, update and add new features , to old websites</p>
+            </div>
+          </div>
+        </section>
+        <section id="work" class="swiper-slide flex work">
+          <div id="div-ul" class="mg">
+            <ul id="ul-project" class="flex">
+              <li class="work-active flex nav-li2">1</li>
+              <li class="flex nav-li2">2</li>
+              <li class="flex nav-li2">3</li>
+              <li class="flex nav-li2">4</li>
+              <li class="flex nav-li2">5</li>
+              <li class="flex nav-li2">6</li>
+              <li class="flex nav-li2">7</li>
+            </ul>
+          </div>
+          <div class="swiper-container2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex flex2">
+                <div class="mg">
+                  <h1>Kojima</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JS</button>
+                    <button>Node.js</button>
+                    <button>Firebase</button>
+                  </div>
+                  <div class="desc">
+                    Kojima Real Estate Development is a leading investment and
+                    real estate development company based in Badr City, Cairo.
+                    Established in 2010 with an initial capital of 20 million
+                    EGP, the company has significantly grown, owning over 60
+                    plots of land, 130 architectural projects, and 650 housing
+                    units. Kojima Real Estate specializes in investment,
+                    marketing, and property development, becoming a
+                    distinguished brand in Badr City. The company operates from
+                    two main offices, with its first branch located in Badr
+                    City’s First District, and the second near the Russian
+                    University.
+                  </div>
+                  <div class="code-link">
+                    <a target="_blank" href="https://github.com/Sh6rif/kojima"
+                      >Github</a
+                    >
+                    <a target="_blank" href="https://kojima-eight.vercel.app/"
+                      >View</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen1.png" alt="project1" />
+                </div>
+              </div>
+              <div class="swiper-slide flex flex2">
+                <div class="mg mg2">
+                  <h1>Sign Language Translator</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JS</button>
+                    <button>Node.js</button>
+                    <button>Firebase</button>
+                    <button>AI</button>
+                    <button>Unity</button>
+                  </div>
+                  <div class="desc">
+                    The Sign Language Translator website provides an
+                    AI-supported tool to bridge communication gaps between sign
+                    language users and those using written text. It offers
+                    translation services and educational resources aimed at
+                    enhancing sign language skills. The platform includes
+                    courses for schools and colleges, video lessons for all
+                    ages, and chatbot support for user inquiries.
+                  </div>
+                  <div class="code-link">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Ahmedzaid16/SignCraft-Innovators-Graduation-Project"
+                      >Github</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://signlang-n1k8.onrender.com/"
+                      >View</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen2.png" alt="project2" />
+                </div>
+              </div>
+              <div class="swiper-slide flex flex2">
+                <div class="mg mg2">
+                  <h1>Control Management</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JS</button>
+                    <button>Bootstrap</button>
+                    <button>Node.js</button>
+                    <button>Firebase</button>
+                  </div>
+                  <div class="desc">
+                    The Control Management platform offers tools for managing
+                    educational courses. Users can add and update course
+                    details, including name, category, lessons, descriptions,
+                    and multimedia content. The platform supports both adult and
+                    kids' courses and includes features for course creation,
+                    search, and management. It also provides options to toggle
+                    between light and dark themes for user convenience.
+                  </div>
+                  <div class="code-link">
+                    <a
+                      target="_blank"
+                      href="https://github.com/Sh6rif/System-User"
+                      >Github</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://control-management-b424a.web.app/"
+                      >View</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen3.png" alt="project3" />
+                </div>
+              </div>
+              <div class="swiper-slide flex flex2">
+                <div class="mg mg2">
+                  <h1>Meyo Clinic</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                  </div>
+                  <div class="desc">
+                    The Mayo Clinic website offers comprehensive healthcare
+                    services and resources. It includes patient-centered care
+                    information, appointment scheduling, doctor finding tools,
+                    and details about their top-ranked specialties. The site
+                    also provides access to their health library, clinical
+                    trials, international services, and educational resources
+                    for medical professionals and students. With locations in
+                    Florida, Minnesota, Arizona, and international offices, Mayo
+                    Clinic is dedicated to solving complex medical challenges
+                    and providing world-class care.
+                  </div>
+                  <div class="code-link">
+                    <a target="_blank" href="https://github.com/Sh6rif/mayo"
+                      >Github</a
+                    >
+                    <a target="_blank" href="https://mayo-six.vercel.app/"
+                      >View</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen4.png" alt="project4" />
+                </div>
+              </div>
+              <div class="swiper-slide flex flex2">
+                <div class="mg mg2">
+                  <h1>IOT NodeMCU</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JS</button>
+                    <button>Node.js</button>
+                    <button>Firebase</button>
+                    <button>NodeMCU</button>
+                  </div>
+                  <div class="desc">
+                    The LED Control website provides a simple interface to
+                    manage an LED light using a NodeMCU IoT device. It features
+                    two buttons, "On" and "Off," allowing users to easily turn
+                    the LED light on or off remotely. This project demonstrates
+                    basic IoT functionality, enabling users to control hardware
+                    devices over the internet.
+                  </div>
+                  <div class="code-link">
+                    <a target="_blank" href="https://github.com/Sh6rif/iot"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen5.png" alt="project5" />
+                </div>
+              </div>
+              <div class="swiper-slide flex flex2">
+                <div class="mg mg2">
+                  <h1>Spell Correction</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JS</button>
+                    <button>Node.js</button>
+                    <button>Python</button>
+                  </div>
+                  <div class="desc">
+                    The Spell Correction website provides a simple tool to
+                    correct spelling errors in English text. Using the
+                    autocorrect library, it processes the input text, corrects
+                    any spelling mistakes, and outputs the corrected text in
+                    uppercase. This user-friendly tool is ideal for quickly
+                    cleaning up written content.
+                  </div>
+                  <div class="code-link">
+                    <a target="_blank" href="https://github.com/Sh6rif/spell"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen6.png" alt="project6" />
+                </div>
+              </div>
+              <div class="swiper-slide flex flex2">
+                <div class="mg mg2">
+                  <h1>EgyFood</h1>
+                  <div class="flex technolgy">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JS</button>
+                    <button>PHP</button>
+                    <button>MySQL</button>
+                  </div>
+                  <div class="desc">
+                    EgyFood offers an extensive menu of authentic Egyptian
+                    dishes. From savory legumes like Foul and Falafel to hearty
+                    mains like Koshary and Shawarma Fattah, each dish is crafted
+                    to bring the flavors of Egypt to your table. The website
+                    features categories such as Sandwiches, Chicken & Fish,
+                    Sides, Desserts, and a variety of beverages, ensuring a
+                    comprehensive dining experience. Users can easily browse the
+                    full menu, select their desired items, and add them to their
+                    cart for a convenient and delightful culinary journey.
+                  </div>
+                  <div class="code-link">
+                    <a target="_blank" href="https://github.com/Sh6rif/EgyFood"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+                <div class="mg div-img">
+                  <img class="screen" src="img/screen7.png" alt="project7" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
